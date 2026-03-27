@@ -1,0 +1,17 @@
+[
+    {
+        "name": "take",
+        "type": "function",
+        "inputs": [
+            {"name": "auction", "type": "address"},
+            {"name": "auction_id", "type": "uint256"},
+            {"name": "collateral", "type": "address"},
+            {"name": "router", "type": "address"},
+            {"name": "swap_data", "type": "bytes"},
+            {"name": "min_profit", "type": "uint256"},
+            {"name": "profit_receiver", "type": "address"}
+        ],
+        "outputs": [],
+        "stateMutability": "nonpayable"
+    }
+]

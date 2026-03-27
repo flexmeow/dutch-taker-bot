@@ -1,0 +1,23 @@
+[
+    {
+        "name": "dutch_desk",
+        "type": "function",
+        "inputs": [],
+        "outputs": [{"name": "", "type": "address"}],
+        "stateMutability": "view"
+    },
+    {
+        "name": "borrow_token",
+        "type": "function",
+        "inputs": [],
+        "outputs": [{"name": "", "type": "address"}],
+        "stateMutability": "view"
+    },
+    {
+        "name": "collateral_token",
+        "type": "function",
+        "inputs": [],
+        "outputs": [{"name": "", "type": "address"}],
+        "stateMutability": "view"
+    }
+]

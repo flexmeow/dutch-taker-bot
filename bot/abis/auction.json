@@ -1,0 +1,63 @@
+[
+    {
+        "name": "sell_token",
+        "type": "function",
+        "inputs": [],
+        "outputs": [{"name": "", "type": "address"}],
+        "stateMutability": "view"
+    },
+    {
+        "name": "buy_token",
+        "type": "function",
+        "inputs": [],
+        "outputs": [{"name": "", "type": "address"}],
+        "stateMutability": "view"
+    },
+    {
+        "name": "is_active",
+        "type": "function",
+        "inputs": [{"name": "auction_id", "type": "uint256"}],
+        "outputs": [{"name": "", "type": "bool"}],
+        "stateMutability": "view"
+    },
+    {
+        "name": "get_available_amount",
+        "type": "function",
+        "inputs": [{"name": "auction_id", "type": "uint256"}],
+        "outputs": [{"name": "", "type": "uint256"}],
+        "stateMutability": "view"
+    },
+    {
+        "name": "get_needed_amount",
+        "type": "function",
+        "inputs": [
+            {"name": "auction_id", "type": "uint256"},
+            {"name": "max_take_amount", "type": "uint256"}
+        ],
+        "outputs": [{"name": "", "type": "uint256"}],
+        "stateMutability": "view"
+    },
+    {
+        "anonymous": false,
+        "name": "AuctionKick",
+        "type": "event",
+        "inputs": [
+            {"indexed": true, "name": "auction_id", "type": "uint256"},
+            {"indexed": false, "name": "kick_amount", "type": "uint256"},
+            {"indexed": true, "name": "is_re_kick", "type": "bool"}
+        ]
+    },
+    {
+        "anonymous": false,
+        "name": "AuctionTake",
+        "type": "event",
+        "inputs": [
+            {"indexed": true, "name": "auction_id", "type": "uint256"},
+            {"indexed": false, "name": "take_amount", "type": "uint256"},
+            {"indexed": false, "name": "remaining_amount", "type": "uint256"},
+            {"indexed": false, "name": "needed_amount", "type": "uint256"},
+            {"indexed": false, "name": "taker", "type": "address"},
+            {"indexed": false, "name": "receiver", "type": "address"}
+        ]
+    }
+]

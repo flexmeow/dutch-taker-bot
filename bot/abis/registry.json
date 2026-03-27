@@ -1,0 +1,16 @@
+[
+    {
+        "name": "get_all_markets",
+        "type": "function",
+        "inputs": [],
+        "outputs": [{"name": "", "type": "address[]"}],
+        "stateMutability": "view"
+    },
+    {
+        "name": "market_status",
+        "type": "function",
+        "inputs": [{"name": "", "type": "address"}],
+        "outputs": [{"name": "", "type": "uint256"}],
+        "stateMutability": "view"
+    }
+]

@@ -1,8 +1,6 @@
 # dutch-taker
 
-<p align="center">
-  <img src="assets/pfp.jpg" alt="Flex Silverback" width="700" height="500"/>
-</p>
+Takes Flex's Dutch Auctions profitably using a DEX aggregator for collateral swaps.
 
 ## Installation
 
@@ -39,7 +37,7 @@
 
 Run:
 ```shell
-silverback run --network :mainnet
+python -u -m bot
 ```
 
 Run using docker compose:

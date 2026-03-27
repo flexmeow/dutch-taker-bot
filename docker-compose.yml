@@ -1,8 +1,9 @@
 services:
   dutch-taker:
-    platform: linux/amd64
     build: .
     container_name: dutch-taker
     env_file: .env
-    command: ["run", "--network", ":mainnet"]
+    environment:
+      NETWORK: ethereum
+      RPC_URL: ${RPC_URL}
     restart: unless-stopped

@@ -1,5 +1,0 @@
-node:
-  ethereum:
-    mainnet:
-      uri: "${ETH_RPC_URL}"
-      ws_uri: "${ETH_WS_URL}"

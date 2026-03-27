@@ -1,17 +1,13 @@
 [project]
 name = "dutch-taker"
-version = "0.1.0"
+version = "0.2.0"
 description = "Takes Flex's Dutch Auctions"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "ruff==0.14.11",
     "mypy==1.19.1",
-    "python-dotenv==1.2.0",
-    "python-telegram-bot==22.5",
-    "eth-ape==0.8.45",
-    "silverback==0.7.35",
-    "ape-etherscan==0.8.5",
+    "tinybot-eth==0.5.0",
 ]
 
 [tool.setuptools.packages.find]

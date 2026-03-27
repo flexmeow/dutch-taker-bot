@@ -1,0 +1,9 @@
+[
+    {
+        "name": "auction",
+        "type": "function",
+        "inputs": [],
+        "outputs": [{"name": "", "type": "address"}],
+        "stateMutability": "view"
+    }
+]
